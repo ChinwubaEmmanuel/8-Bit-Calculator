@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
+					"name" : "LoadOU",
+					"strict" : false
+				},
+				{
+					"name" : "Iuau",
+					"strict" : false
+				},
+				{
+					"name" : "LoadA",
+					"strict" : false
+				},
+				{
+					"name" : "LoadB",
+					"strict" : false
+				},
+				{
+					"name" : "LoadR",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				},
+				{
+					"name" : "in",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

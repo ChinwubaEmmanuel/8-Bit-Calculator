@@ -1,0 +1,129 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 17:17:16  December 05, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		term_project_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY term_project
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:17:16  DECEMBER 05, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_B11 -to Cout
+set_location_assignment PIN_C14 -to a1
+set_location_assignment PIN_C18 -to a2
+set_location_assignment PIN_B20 -to a3
+set_location_assignment PIN_F21 -to a4
+set_location_assignment PIN_E15 -to b1
+set_location_assignment PIN_D18 -to b2
+set_location_assignment PIN_A20 -to b3
+set_location_assignment PIN_E22 -to b4
+set_location_assignment PIN_C15 -to c1
+set_location_assignment PIN_E18 -to c2
+set_location_assignment PIN_B19 -to c3
+set_location_assignment PIN_E21 -to c4
+set_location_assignment PIN_P11 -to clock
+set_location_assignment PIN_C16 -to d1
+set_location_assignment PIN_B16 -to d2
+set_location_assignment PIN_A21 -to d3
+set_location_assignment PIN_C19 -to d4
+set_location_assignment PIN_E16 -to e1
+set_location_assignment PIN_A17 -to e2
+set_location_assignment PIN_B21 -to e3
+set_location_assignment PIN_C20 -to e4
+set_location_assignment PIN_D17 -to f1
+set_location_assignment PIN_A18 -to f2
+set_location_assignment PIN_C22 -to f3
+set_location_assignment PIN_D19 -to f4
+set_location_assignment PIN_C17 -to g1
+set_location_assignment PIN_B17 -to g2
+set_location_assignment PIN_B22 -to g3
+set_location_assignment PIN_E17 -to g4
+set_location_assignment PIN_A11 -to gval
+set_location_assignment PIN_A7 -to in
+set_location_assignment PIN_B8 -to reset
+set_location_assignment PIN_AA12 -to col[0]
+set_location_assignment PIN_AA11 -to col[1]
+set_location_assignment PIN_Y10 -to col[2]
+set_location_assignment PIN_AB9 -to col[3]
+set_location_assignment PIN_AB8 -to row[0]
+set_location_assignment PIN_AB7 -to row[1]
+set_location_assignment PIN_AB6 -to row[2]
+set_location_assignment PIN_AB5 -to row[3]
+set_location_assignment PIN_C10 -to Cin
+set_global_assignment -name VERILOG_FILE "../term project extra/Nbitregister.v"
+set_global_assignment -name VERILOG_FILE "../term project extra/NbitOU.v"
+set_global_assignment -name VERILOG_FILE "../Lab 11/clock_div.v"
+set_global_assignment -name VERILOG_FILE ../Lab5/binary2seven.v
+set_global_assignment -name VERILOG_FILE "../Lab 10/calc_out_unit.v"
+set_global_assignment -name VERILOG_FILE ../Lab9/MUX_reg.v
+set_global_assignment -name VERILOG_FILE "../Lab 6/fulladder.v"
+set_global_assignment -name VERILOG_FILE EdgeDetect.v
+set_global_assignment -name VERILOG_FILE "../Lab 11/shift_reg.v"
+set_global_assignment -name VERILOG_FILE "../Lab 11/keypad_input.v"
+set_global_assignment -name VERILOG_FILE "../Lab 11/keypad_fsm.v"
+set_global_assignment -name VERILOG_FILE "../Lab 11/keypad_decoder.v"
+set_global_assignment -name VERILOG_FILE "../Lab 11/keypad_base.v"
+set_global_assignment -name VERILOG_FILE "../Lab 11/calc_in_unit.v"
+set_global_assignment -name VERILOG_FILE "../Lab 11/BCD2BinarySM.v"
+set_global_assignment -name VERILOG_FILE "../Lab 10/half_adder.v"
+set_global_assignment -name VERILOG_FILE "../Lab 10/binary2bcd.v"
+set_global_assignment -name VERILOG_FILE "../Lab 10/add3.v"
+set_global_assignment -name VERILOG_FILE ../Lab9/eightbit_ripplecarryadder.v
+set_global_assignment -name VERILOG_FILE "../term project extra/calc_out.v"
+set_global_assignment -name VERILOG_FILE "../term project extra/two_funct_au.v"
+set_global_assignment -name VERILOG_FILE "../term project extra/two2onemux.v"
+set_global_assignment -name VERILOG_FILE control_unit.v
+set_global_assignment -name VERILOG_FILE term_project.v
+set_location_assignment PIN_A9 -to out_reg[1]
+set_location_assignment PIN_A10 -to out_reg[2]
+set_location_assignment PIN_B10 -to out_reg[3]
+set_location_assignment PIN_D13 -to out_reg[4]
+set_location_assignment PIN_C13 -to out_reg[5]
+set_location_assignment PIN_E14 -to out_reg[6]
+set_location_assignment PIN_D14 -to out_reg[7]
+set_location_assignment PIN_A8 -to out_reg[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,20 @@
+|control_unit
+clock => clock.IN1
+reset => state~3.DATAIN
+in => in.IN1
+out <= EdgeDetect:INST.out
+LoadOU <= LoadOU$latch.DB_MAX_OUTPUT_PORT_TYPE
+Iuau <= Iuau$latch.DB_MAX_OUTPUT_PORT_TYPE
+LoadA <= LoadA$latch.DB_MAX_OUTPUT_PORT_TYPE
+LoadB <= LoadB$latch.DB_MAX_OUTPUT_PORT_TYPE
+LoadR <= LoadR$latch.DB_MAX_OUTPUT_PORT_TYPE
+clear <= clear$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|control_unit|EdgeDetect:INST
+in => out.IN1
+in => in_delay.DATAIN
+clock => in_delay.CLK
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
