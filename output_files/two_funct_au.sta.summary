@@ -1,0 +1,65 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'LoadR'
+Slack : -1.928
+TNS   : -11.579
+
+Type  : Slow 1200mV 85C Model Hold 'LoadR'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LoadA'
+Slack : -3.000
+TNS   : -14.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LoadB'
+Slack : -3.000
+TNS   : -14.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LoadR'
+Slack : -3.000
+TNS   : -14.224
+
+Type  : Slow 1200mV 0C Model Setup 'LoadR'
+Slack : -1.687
+TNS   : -10.600
+
+Type  : Slow 1200mV 0C Model Hold 'LoadR'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LoadA'
+Slack : -3.000
+TNS   : -14.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LoadB'
+Slack : -3.000
+TNS   : -14.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LoadR'
+Slack : -3.000
+TNS   : -14.224
+
+Type  : Fast 1200mV 0C Model Setup 'LoadR'
+Slack : -0.236
+TNS   : -0.264
+
+Type  : Fast 1200mV 0C Model Hold 'LoadR'
+Slack : -0.153
+TNS   : -0.292
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LoadR'
+Slack : -3.000
+TNS   : -13.110
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LoadB'
+Slack : -3.000
+TNS   : -11.768
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LoadA'
+Slack : -3.000
+TNS   : -11.760
+
+------------------------------------------------------------

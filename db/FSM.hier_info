@@ -1,0 +1,25 @@
+|FSM
+clock => clock.IN1
+reset => state[0]~reg0.ACLR
+reset => state[1]~reg0.ACLR
+in => _.IN1
+out <= EdgeDetect:INST.out
+LoadOU <= LoadOU$latch.DB_MAX_OUTPUT_PORT_TYPE
+IUAU <= IUAU$latch.DB_MAX_OUTPUT_PORT_TYPE
+LoadA <= LoadA$latch.DB_MAX_OUTPUT_PORT_TYPE
+LoadB <= LoadB$latch.DB_MAX_OUTPUT_PORT_TYPE
+LoadR <= LoadR$latch.DB_MAX_OUTPUT_PORT_TYPE
+clear <= clear$latch.DB_MAX_OUTPUT_PORT_TYPE
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nextstate[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+nextstate[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FSM|EdgeDetect:INST
+in => out.IN1
+in => in_delay.DATAIN
+clock => in_delay.CLK
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Dec 06 13:59:16 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Nbitregister
+Top-level Entity Name : Nbitregister
+Family : MAX 10
+Total logic elements : 8
+    Total combinational functions : 0
+    Dedicated logic registers : 8
+Total registers : 8
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

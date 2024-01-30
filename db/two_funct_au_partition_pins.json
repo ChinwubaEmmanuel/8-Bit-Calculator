@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Cout",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_reg[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Cin",
+					"strict" : false
+				},
+				{
+					"name" : "A[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadA",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "A[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadB",
+					"strict" : false
+				},
+				{
+					"name" : "A[4]",
+					"strict" : false
+				},
+				{
+					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadR",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
